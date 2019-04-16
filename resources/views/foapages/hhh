@@ -1,0 +1,1366 @@
+<div class="container">
+
+    <div class="container">
+      <p>Click on the button to see</p>
+      <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#Entertainnment">Entertainment Category</button>
+      <div id="Entertainnment" class="collapse">
+        <div class="containe row">
+          <h4>Female Artiste Of The Year</h4>
+          <div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-primary active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-danger active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-info active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-primary active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="containe row">
+          <h4>Male Artiste Of The Year</h4>
+          <div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-primary active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-danger active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-info active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-primary active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="containe row">
+          <h4>Music Producer Of The Year</h4>
+          <div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-primary active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-danger active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-info active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-primary active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="containe row">
+          <h4>Best Music Vocalist Of The Year</h4>
+          <div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-primary active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-danger active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-info active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-primary active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="containe row">
+          <h4>Next Rated Artiste Of The Year</h4>
+          <div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-primary active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-danger active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-info active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-primary active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="containe row">
+          <h4>Best Record Label On Campus</h4>
+          <div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-primary active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-danger active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-info active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-primary active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="containe row">
+          <h4>AAUA Indigenous Song Of The Year</h4>
+          <div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-primary active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-danger active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-info active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-primary active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="containe row">
+          <h4>Best Drama Group on Campus</h4>
+          <div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-primary active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-danger active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-info active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-primary active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="containe row">
+          <h4>Best M.C. of the Year</h4>
+          <div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-primary active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-danger active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-info active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-primary active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="containe row">
+          <h4>Best D.J. on Campus</h4>
+          <div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-primary active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-danger active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-info active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-primary active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="containe row">
+          <h4>Best Hype Man of the Year</h4>
+          <div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-primary active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-danger active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-info active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-primary active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="containe row">
+          <h4>Rookie of the Year</h4>
+          <div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-primary active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-danger active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-info active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-primary active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="containe row">
+          <h4>Best Commedy Stage Performance</h4>
+          <div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-primary active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-danger active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-info active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-primary active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="containe row">
+          <h4>Entertainer of the Year</h4>
+          <div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-primary active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-danger active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-info active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-primary active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="containe row">
+          <h4>Best Comedian on Campus</h4>
+          <div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-primary active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-danger active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-info active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h4>Mr A</h4>
+              <h5>Total Votes: {{ ($contSOS) }}</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-primary active" role="progressbar" aria-valuenow="{{$n6}}"
+                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                  {{ ($n6) }}%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <p>Click on the button to see</p>
+      <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#Media">Media Category</button>
+      <div id="Media" class="collapse">
+        <div class="containe row">
+          <h4>Best Campus Online Media Outlet</h4>
+        </div>
+        <div class="containe row">
+          <h4>Best Blog Site of the Year</h4>
+        </div>
+        <div class="containe row">
+          <h4>Best Online P.R. of the Year</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <p>Click on the button to see</p>
+      <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#Official">Official Category</button>
+      <div id="Official" class="collapse">
+
+        <div class="containe row">
+          <h4>Best AAUASU EXCO</h4>
+        </div>
+        <div class="containe row">
+          <h4>Best Faculty President</h4>
+        </div>
+        <div class="containe row">
+          <h4>Best Department President</h4>
+        </div>
+        <div class="containe row">
+          <h4>Best Faculty Social Director</h4>
+        </div>
+        <div class="containe row">
+          <h4>Best Departmental Social Director</h4>
+        </div>
+        <div class="containe row">
+          <h4>Best Class Governor of the Year</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <p>Click on the button to see</p>
+      <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#Personality">Personality Category</button>
+      <div id="Personality" class="collapse">
+        <div class="containe row">
+          <h4>Mr Personality Of The Year</h4>
+        </div>
+        <div class="containe row">
+          <h4>Miss Personality Of The Year</h4>
+        </div>
+        <div class="containe row">
+          <h4>Most Sought After AAUAITE</h4>
+        </div>
+        <div class="containe row">
+          <h4>Most Sophisticated Female AAUAITE</h4>
+        </div>
+        <div class="containe row">
+          <h4>Most Sophisticated Male AAUAITE</h4>
+        </div>
+        <div class="containe row">
+          <h4>Most Influential Male AAUAITE</h4>
+        </div>
+        <div class="containe row">
+          <h4>Most Influential Female AAUAITE</h4>
+        </div>
+        <div class="containe row">
+          <h4>Most Popular Male AAUAITE</h4>
+        </div>
+        <div class="containe row">
+          <h4>Most Outspoken AAUAITE</h4>
+        </div>
+        <div class="containe row">
+          <h4>Most Sociable AAUAITE</h4>
+        </div>
+        <div class="containe row">
+          <h4>Most Popular Female AAUAITE</h4>
+        </div>
+        <div class="containe row">
+          <h4>Best Clique Of The Year</h4>
+        </div>
+        <div class="containe row">
+          <h4>Hour Glass of the Year</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+        <p>Click on the button to see</p>
+        <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#Rich_Class">Rich Class Category</button>
+        <div id="Rich_Class" class="collapse">
+          <div class="containe row">
+            <h4>Money Bag Of The Year</h4>
+          </div>
+          <div class="containe row">
+            <h4>Most Expensive Female AAUAITE</h4>
+          </div>
+          <div class="containe row">
+            <h4>Most Expensive Male AAUAITE</h4>
+          </div>
+          <div class="containe row">
+            <h4>Most Expensive Female Duo in AAUA</h4>
+          </div>
+          <div class="containe row">
+            <h4>Most Expensive Male Duo in AAUA</h4>
+          </div>
+          <div class="containe row">
+            <h4>Most Expensive Female Crew in AAUA</h4>
+          </div>
+          <div class="containe row">
+            <h4>Most Expensive Male Crew in AAUA</h4>
+          </div>
+          <div class="containe row">
+            <h4>Most Expensive Female Clique in AAUA</h4>
+          </div>
+          <div class="containe row">
+            <h4>Most Expensive Male Clique in AAUA</h4>
+          </div>
+        </div>
+      </div>
+
+    <div class ="container">
+        <p>Click on the button to see</p>
+        <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#Hall_of_Fame">Hall of Fame Category</button>
+        <div id="Hall_of_Fame" class="collapse">
+
+          <div class="containe row">
+            <h4>Hall of Fame</h4>
+          </div>
+          <div class="containe row">
+            <h4>Best Sportsman of the Year</h4>
+          </div>
+        </div>
+      </div>
+
+    <div class="container">
+        <p>Click on the button to see</p>
+        <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#Beauty">Beauty Category</button>
+        <div id="Beauty" class="collapse">
+          <div class="containe row">
+            <h4>Most Handsome AAUAITE</h4>
+          </div>
+          <div class="containe row">
+            <h4>Most Beautiful AAUAITE</h4>
+          </div>
+          <div class="containe row">
+            <h4>Black Diamond of the Year</h4>
+          </div>
+          <div class="containe row">
+            <h4>Miss Cute Of The Year</h4>
+          </div>
+          <div class="containe row">
+            <h4>Most Endowed of the Year</h4>
+          </div>
+          <div class="containe row">
+            <h4>Big-Bold & Beautiful</h4>
+          </div>
+          <div class="containe row">
+            <h4>Most Sophisticated Female</h4>
+          </div>
+          <div class="containe row">
+            <h4>Ever Radiant Female AAUAITE</h4>
+          </div>
+          <div class="containe row">
+            <h4>Ever Radiant Male AAUAITE</h4>
+          </div>
+        </div>
+      </div>
+
+    <div class="container">
+        <p>Click on the button to see</p>
+        <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#Creativity">Creativity Category</button>
+        <div id="Creativity" class="collapse">
+          <div class="containe row">
+            <h4>Entrepreneur Of The Year</h4>
+          </div>
+          <div class="containe row">
+            <h4>Innovative Student Of The Year</h4>
+          </div>
+          <div class="containe row">
+            <h4>Industrious Student Of The Year</h4>
+          </div>
+          <div class="containe row">
+            <h4>Writer Of The Year</h4>
+          </div>
+          <div class="containe row">
+            <h4>Best Event Planner Of The Year</h4>
+          </div>
+        </div>
+      </div>
+
+    <div class="container">
+        <p>Click on the button to see</p>
+        <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#Business_Enterprise">Business Enterprise Category</button>
+        <div id="Business_Enterprise" class="collapse">
+          <div class="containe row">
+            <h4>Best Restaurant on Campus</h4>
+          </div>
+          <div class="containe row">
+            <h4>Best Beauty Cafe in Town</h4>
+          </div>
+          <div class="containe row">
+            <h4>Best Eatery in Town</h4>
+          </div>
+          <div class="containe row">
+            <h4>Best Filling Station in Town</h4>
+          </div>
+          <div class="containe row">
+            <h4>Best Online REgistration Centre</h4>
+          </div>
+          <div class="containe row">
+            <h4>Best Hotel in Town</h4>
+          </div>
+          <div class="containe row">
+            <h4>Best Bar in Town</h4>
+          </div>
+          <div class="containe row">
+            <h4>Best Club in Town</h4>
+          </div>
+          <div class="containe row">
+            <h4>Best P.O.S. Outlet</h4>
+          </div>
+          <div class="containe row">
+            <h4>Students Favourite Gas Fillers/h4>
+          </div>
+          <div class="containe row">
+            <h4>Best Off-Campus Hostel</h4>
+          </div>
+          <div class="containe row">
+            <h4>Best Girl's Hostel on Campus</h4>
+          </div>
+        </div>
+      </div>
+
+    <div class="container">
+        <p>Click on the button to see</p>
+        <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#Political">Political Category</button>
+        <div id="Political" class="collapse">
+          <div class="containe row">
+            <h4>Political Elite Of The Year</h4>
+          </div>
+          <div class="containe row">
+            <h4>Most Political Conscious AAUAITE</h4>
+          </div>
+        </div>
+      </div>
+
+    <div class="container">
+        <p>Click on the button to see</p>
+        <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#Fashion">Fashion Category</button>
+        <div id="Fashion" class="collapse">
+          <div class="containe row">
+            <h4>Miss Fashionista of the Year</h4>
+          </div>
+          <div class="containe row">
+            <h4>Mr Fashionista of the Year</h4>
+          </div>
+          <div class="containe row">
+            <h4>Fast Upcoming Fashion Line on Campus</h4>
+          </div>
+          <div class="containe row">
+            <h4>Best Fashion Line on Campus</h4>
+          </div>
+        </div>
+      </div>
+
+    <!-- FRESHERS CATEGORIES -->
+    <h3 class="container">FRESHERS CATEGORIES</h3>
+
+    <div class="container">
+        <p>Click on the button to see</p>
+        <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#FBeauty">Beauty Category</button>
+        <div id="FBeauty" class="collapse">
+          <div class="containe row">
+            <h4>Most Beautiful Fresher</h4>
+          </div>
+          <div class="containe row">
+            <h4>Most Handsome Fresher</h4>
+          </div>
+        </div>
+      </div>
+
+    <div class="container">
+        <p>Click on the button to see</p>
+        <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#F
+            nality">Personality Category</button>
+        <div id="FPersonality" class="collapse">
+          <div class="containe row">
+            <h4>Most Popular Fresher</h4>
+          </div>
+          <div class="containe row">
+            <h4>Most Friendly Fresher</h4>
+          </div>
+          <div class="containe row">
+            <h4>Most Sophisticated Fresher</h4>
+          </div>
+          <div class="containe row">
+            <h4>Most Expensive Fresher</h4>
+          </div>
+          <div class="containe row">
+            <h4>Most Outspoken Fresher</h4>
+          </div>
+          <div class="containe row">
+            <h4>Most Sought After Fresher</h4>
+          </div>
+        </div>
+      </div>
+
+    <div class="container">
+        <p>Click on the button to see</p>
+        <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#FSocial">Social Category</button>
+        <div id="FSocial" class="collapse">
+          <div class="containe row">
+            <h4>Most Swaggilicious Fresher</h4>
+          </div>
+          <div class="containe row">
+            <h4>Most Sociable Fresher</h4>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @if(count($comment)>0)
+                      @foreach($comments as $comment)
+                          <section class="row">
+                              <div class="media col col-md-12">
+                                  <div class="media-left">
+                                      @if($status->profile->Avatar == 'AvatarDefault'.$status->profile->Gender.'.jpg')
+                                          <a href="/profile/{{$comment->profile->Username}}"><img class="profile-img col-offset-5" src="/avatar/{{$status->profile->Avatar}}" style="width:70px"></a>
+                                      @else
+                                          <a href="/profile/{{$comment->profile->Username}}"><img class="profile-img col-offset-5" src="{{$status->profile->Avatar}}" style="width:70px"></a>
+                                      @endif
+                                      <b>{{ $comment->profile->Username }}</b>
+                                  </div>
+                                  <div class="media-body">
+                                      <div class="panel panel-info">
+                                          <div class="panel-heading">
+                                              <a href="/profile/{{$comment->profile->Username}}"><h4 class="media-heading"><b>{{ $status->profile->Name }}</b></h4></a>
+                                          </div>
+                                          <div class="panel-body">
+                                              <p style="text-align: justify;">{{ $comment->content }}<br><hr></p>
+                                              <a href='{!! url('foa') !!}' class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-thumbs-up"></span> Like</a> |
+                                              @if(Auth::User() == $comment->User)
+                                                  |
+                                                  <a href='{!! url('foa') !!}' class="btn btn-success btn-sm"><span class="glyphicon glyphicon-edit"></span> Edit</a> |
+                                                  <a href='{!! url('foa') !!}' class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-trash"></span> Delete</a>
+                                              @endif
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </section>
+                      @endforeach
+                  @endif

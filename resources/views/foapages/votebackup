@@ -1,0 +1,353 @@
+ @foreach($contestants as $contestant)
+              <div class="col-md-2">
+                  @if(($contestant{'SubCategory'} == "ArtYr"))
+                            <div class="contt">
+                              <p class="Nickname">{{ $contestant -> Nick }}
+                              <input type="hidden" checked="ckecked" name="ArtY" value="No Vote Recorded">
+                              <input onclick="rtY('{{ $contestant -> Nick}}')" type="radio" name="ArtY" value="{{ $contestant -> Nick}}">
+                            </div>
+                  @endif
+              </div>
+            @endforeach
+            <input type="hidden" checked="ckecked" name="ArtY" value="No Vote Recorded">
+        </div>
+        <input type="hidden" checked="ckecked" name="ArtY" value="No Vote Recorded">
+
+        <div class="containe row">
+          <h4>Best Music Producer</h4>
+            @foreach($contestants as $contestant)
+              <div class="col-md-2">
+                  @if(($contestant{'SubCategory'} == "BMusic"))
+                            <div class="contt">
+                              <p class="Nickname">{{ $contestant -> Nick }}
+                              <input type="hidden" checked="ckecked" name="BMusic" value="No Vote Recorded">
+                              <input onclick="Music('{{ $contestant -> Nick}}')" type="radio" name="BMusic" value="{{ $contestant -> Nick}}">
+                            </div>
+                  @endif
+              </div>
+            @endforeach
+            <input type="hidden" checked="ckecked" name="BMusic" value="No Vote Recorded">
+        </div>
+
+        <div class="containe row">
+            <h4>Best Record Label On Campus</h4>
+            @foreach($contestants as $contestant)
+              <div class="col-md-2">
+                  @if(($contestant{'SubCategory'} == "BRec"))
+                            <div class="contt">
+                              <p class="Nickname">{{ $contestant -> Nick }}
+                              <input type="hidden" checked="ckecked" name="BRec" value="No Vote Recorded">
+                              <input onclick="Rec('{{ $contestant -> Nick}}')" type="radio" class="Nicked" name="BRec" value="{{ $contestant -> Nick}}">
+                            </div>
+                  @endif
+                  <input type="hidden" checked="ckecked" name="ArtY" value="No Vote Recorded">
+              </div>
+            @endforeach
+        </div>
+
+        <div class="containe row">
+            <h4>AAUA Indiginous Song of the Year </h4>
+            @foreach($contestants as $contestant)
+              <div class="col-md-2">
+                  @if(($contestant{'SubCategory'} == "IndSong"))
+                            <div class="contt">
+                              <p class="Nickname">{{ $contestant -> Nick }}
+                              <input type="hidden" checked="ckecked" name="IndSong" value="No Vote Recorded">
+                              <input onclick="ndSong('{{ $contestant -> Nick}}')" type="radio" class="Nicked" name="IndSong" value="{{ $contestant -> Nick}}">
+                            </div>
+                  @endif
+              </div>
+            @endforeach
+            <input type="hidden" checked="ckecked" name="ArtY" value="No Vote Recorded">
+        </div>
+
+        <div class="containe row">
+            <h4>Best Drama Group On Campus</h4>
+            @foreach($contestants as $contestant)
+              <div class="col-md-2">
+                  @if(($contestant{'SubCategory'} == "BDrama"))
+                            <div class="contt">
+                              <p class="Nickname">{{ $contestant -> Nick }}
+                              <input type="hidden" checked="ckecked" name="BDrama" value="No Vote Recorded">
+                              <input onclick="Drama('{{ $contestant -> Nick}}')" type="radio" class="Nicked" name="BDrama" value="{{ $contestant -> Nick}}">
+                            </div>
+                  @endif
+              </div>
+            @endforeach
+            <input type="hidden" checked="ckecked" name="ArtY" value="No Vote Recorded">
+         </div>
+
+        <div class="containe row">
+            <h4>Best Dance Group On Campus</h4>
+            @foreach($contestants as $contestant)
+              <div class="col-md-2">
+                  @if(($contestant{'SubCategory'} == "BDance"))
+                            <div class="contt">
+                              <p class="Nickname">{{ $contestant -> Nick }}
+                              <input type="hidden" checked="ckecked" name="BDance" value="No Vote Recorded">
+                              <input onclick="Dance('{{ $contestant -> Nick}}')" type="radio" class="Nicked" name="BDance" value="{{ $contestant -> Nick}}">
+                            </div>
+                  @endif
+              </div>
+            @endforeach
+            <input type="hidden" checked="ckecked" name="ArtY" value="No Vote Recorded">
+        </div>
+
+      <div class="containe row">
+
+        <div class="form-group">
+        <h4>Best Commedian On Campus</h4>
+        @foreach($contestants as $contestant)
+              <div class="col-md-2">
+                  @if(($contestant{'SubCategory'} == "BComed"))
+                            <div class="contt">
+                              <p class="Nickname">{{ $contestant -> Nick }}
+                              <input type="hidden" checked="ckecked" name="BComed" value="No Vote Recorded">
+                              <input onclick="Comed('{{ $contestant -> Nick}}')" type="radio" class="Nicked" name="BComed" value="{{ $contestant -> Nick}}">
+                            </div>
+                  @endif
+              </div>
+          @endforeach
+          <input type="hidden" checked="ckecked" name="ArtY" value="No Vote Recorded">
+        </div>
+      </div>
+
+      <div class="containe row">
+
+        <div class="form-group">
+        <h4>Best M.C. On Campus</h4>
+          @foreach($contestants as $contestant)
+              <div class="col-md-2">
+                  @if(($contestant{'SubCategory'} == "BMc"))
+                            <div class="contt">
+                              <p class="Nickname">{{ $contestant -> Nick }}
+                              <input type="hidden" checked="ckecked" name="BMc" value="No Vote Recorded">
+                              <input onclick="Mc('{{ $contestant -> Nick}}')" type="radio" class="Nicked" name="BMc" value="{{ $contestant -> Nick}}">
+                            </div>
+                  @endif
+
+              </div>
+          @endforeach
+          <input type="hidden" checked="ckecked" name="ArtY" value="No Vote Recorded">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+      </div>
+    </div>
+
+    <div class="container">
+        <button type= "button" class="btn btn-danger btn-lg" onclick="getsat()"><b>Submit Your Selections</button>
+    </div>
+
+    </div>
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header alert alert-success">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title"><b>Check Your Votes</h4>
+                    </div>
+                    <div class="modal-body"><tr>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p id="BMusic">Some text in the modal.</p>
+                                <p id="BRec">Some text in the modal.</p>
+                                <p id="IndSong">Some text in the modal.</p>
+                                <p id="BDrama">Some text in the modal.</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p id="BDance">Some text in the modal.</p>
+                                <p id="BComed">Some text in the modal.</p>
+                                <p id="BMc">Some text in the modal.</p>
+                            </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <script>
+            var aBMusic = 'No Vote';
+            var BRec = 'No Vote';
+            var IndSong = 'No Vote';
+            var BDrama = 'No Vote';
+            var BDance = 'No Vote';
+            var BComed = 'No Vote';
+            var BMc = 'No Vote';
+            //var BRec = 'No Vote Recorded';
+
+
+            function Music(a) {
+                aBMusic = a;
+            }
+            function Rec(a) {
+                BRec = a;
+            }
+            function ndSong(a) {
+                IndSong = a;
+            }
+            function Drama(a) {
+                BDrama = a;
+            }
+            function Dance(a) {
+                BDance = a;
+            }
+            function Comed(a) {
+                BComed = a;
+            }
+            function Mc(a) {
+                BMc = a;
+            }
+
+            function getsat() {
+                $('#BMusic').html('<b>Best Music Producer: '+aBMusic);
+                $('#BRec').html('<b>Best Record Label: '+BRec);
+                $('#IndSong').html('<b>Best Indiginous Music: '+IndSong);
+                $('#BDrama').html('<b>Best Drama Group: '+BDrama);
+                $('#BDance').html('<b>Best Dance Group: '+BDance);
+                $('#BComed').html('<b>Best Comedian: '+BComed);
+                $('#BMc').html('<b>Best M.C: '+BMc);
+                $('#myModal').modal('show');
+            }
+
+        </script>
+
+
+
+
+
+  @foreach($categories as $catt)
+                <?php $m = 0; ?>
+                    @foreach($contestants as $cont)
+                        @if($cont->category_id == $catt->id)
+                            <?php $m = $m+1; ?>
+                        @endif
+                    @endforeach
+
+
+
+                @for ($i=2; $i<=$m; $i++)
+                    @foreach($categories as $category)
+                        <?php $k = 0; ?>
+
+                            @foreach($contestants as $cont)
+                                @if($cont->category_id == $i)
+                                    <?php $k = $k+1; ?>
+                                @endif
+                            @endforeach
+                        @if($k > 0)
+
+                            @foreach($contestants as $contestant)
+                                @for ($j=1; $j<=$k; $j++)
+                                     @if( $contestant->category_id == $category->id)
+                                        <form method="POST" action="{{route('castVote')}}">
+                                        {{csrf_field()}}
+                                            <div class="form-group">
+                                                <p>Click on the button to see</p>
+                                                <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#category">{{ $category->catname }}</button>
+                                                <div id="category" class="collapse">
+                                                    <h2>{{ $category->catname }}</h2>
+                                                        <div class="contt">
+                                                        <p class="Nickname">{{ $contestant -> contnick }}
+                                                        <input type="hidden" checked="checked" name="voteid" value="No Vote Recorded">
+                                                        <input onclick="vot('{{ $contestant -> contnick}}')" type="radio"
+                                                               name="voteid" value="{{ $i }}{{ $contestant->contid }}">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    @endif
+                                 @endfor
+                            @endforeach
+                        @endif
+                    @endforeach
+                @endfor
+            @endforeach
+            {{ $categories->links() }}
+
+
+
+
+            <!--
+                <div class="container">
+                    <h2>FACULTY VOTE COUNT</h2>
+                    <div class="container">
+                        <div class="col-md-6">
+                            <h2>Faculty of Arts</h2>
+                            <p>Total Votes: {{ ($contArts) }}
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-info active" role="progressbar" aria-valuenow="{{$n1}}"
+                                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n1}}%">
+                                    {{($n1)}}%
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <h2>Faculty of Agriculture</h2>
+                            <p>Total Votes: {{ ($contAgr) }}
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="{{$n2}}"
+                                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n2}}%">
+                                    {{ ($n2) }}%
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <h2>Faculty of Education</h2>
+                            <p>Total Votes: {{ ($contEdu) }}
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped  active" role="progressbar" aria-valuenow="{{$n3}}"
+                                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n3}}%">
+                                    {{ ($n3) }}%
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <h2>Faculty of Law</h2>
+                            <p>Total Votes: {{ ($contLaw) }}
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-info active" role="progressbar" aria-valuenow="{{$n4}}"
+                                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n4}}%">
+                                    {{ ($n4) }}%
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <h2>Faculty of Science</h2>
+                            <p>Total Votes: {{ ($contSci) }}</p>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="{{$n5}}"
+                                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n5}}%">
+                                    {{ ($n5) }}%
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <h2>Social & Management Science</h2>
+                            <p>Total Votes: {{ ($contSOS) }}
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="{{$n6}}"
+                                     aria-valuemin="0" aria-valuemax="100" style="width:{{$n6}}%">
+                                    {{ ($n6) }}%
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            -->
